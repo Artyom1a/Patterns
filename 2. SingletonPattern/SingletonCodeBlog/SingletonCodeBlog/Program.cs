@@ -18,6 +18,10 @@ namespace SingletonCodeBlog
             text1.Save();
             text2.Save();
 
+            //второй затирает первый!!!!!!!!!!
+
+            // реализация паттерна одиночки
+
             var singleton1 = FileWorkerSingleton.Instance;
             var singleton2 = FileWorkerSingleton.Instance;
 
